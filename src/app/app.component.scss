@@ -85,9 +85,10 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 45px;
+        top: 6%;
         padding: 10px;
         align-self: center;
+        left: 8%;
       }
 
       .shuffle-btn, .sort-btn {
@@ -95,13 +96,4 @@
         margin: 0px 5px;
         padding: 10px;
       }
-  }
-
-  @media (min-width:377px) and (max-width:920px) {
-    .container {
-      display: block;
-    }
-    .btn-group{
-      position: relative;
-    }
   }
