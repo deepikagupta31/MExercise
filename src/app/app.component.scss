@@ -63,7 +63,7 @@
       transform: translateY(4px);
   }
 
-  @media (max-width:375px) {
+  @media (max-width:376px) {
 
       .container {
         align-items: center;
@@ -85,8 +85,10 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 8%;
+        top: 6%;
         padding: 10px;
+        align-self: center;
+        left: 8%;
       }
 
       .shuffle-btn, .sort-btn {
